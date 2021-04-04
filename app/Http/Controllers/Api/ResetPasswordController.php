@@ -39,8 +39,6 @@ class ResetPasswordController extends Controller
         if ($update) {
             $this->passwordBroker->deleteToken($userInfo);
 
-            event(new PasswordReset($userInfo));
-
             return response()->json(
                 [
                     'success' => true,

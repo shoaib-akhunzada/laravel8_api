@@ -34,8 +34,7 @@ class ForgotPasswordController extends Controller
 
         if ($userInfo && $request->email) {
             $result = $this->passwordBroker->createToken($userInfo);
-            //$passwordResetLink = $this->url->to('/reset-password/' . $result);
-            $passwordResetLink = env('ADMIN_URL') . '/reset-password/' . $result;
+            $passwordResetLink = $this->url->to('/reset-password/' . $result);
 
             Mail::to($userInfo->email)->send(new ForgotPasswordEmail($userInfo, $passwordResetLink));
 

@@ -35,7 +35,7 @@ class ForgotPasswordController extends Controller
             $result = $this->passwordBroker->createToken($userInfo);
             $passwordResetLink = $this->url->to('/reset-password/' . $result);
 
-            //Mail::to($userInfo->email)->send(new ForgotPasswordEmail($userInfo, $passwordResetLink));
+            Mail::to($userInfo->email)->send(new ForgotPasswordEmail($userInfo, $passwordResetLink));
 
             return back()->with('message', 'We have e-mailed your password reset link!');
         }
