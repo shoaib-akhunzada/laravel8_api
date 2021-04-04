@@ -1,4 +1,4 @@
-<h1>API and Web project setup Laravel 8. Laravel 8 Api Repositories structure.<h1>
+<h1>API and Web project setup Laravel 8. Laravel 8 Api Repositories structure.</h1>
 
   - Laravel 8
   - Passport
@@ -10,7 +10,7 @@
   -	Forget Password web
   -	Reset Password web
   
-<h2>Configuration and setup <h2>
+<h2>Configuration and setup </h2>
 
   1)	Composer update.
   2)	Update .env file for database, email
