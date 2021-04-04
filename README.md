@@ -4,9 +4,11 @@ API and Web project setup Laravel 8. Laravel 8 Api Repositories structure.
   - Passport
   -	Login/Token  Api
   -	User Crud and SignUp Apis
+  -	Password Broker
   -	Forget Password Api
   -	Reset Password Api
-
+  -	Forget Password web
+  -	Reset Password web
 Configuration and setup
 
   1)	Composer update.
