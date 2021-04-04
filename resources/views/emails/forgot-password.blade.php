@@ -27,7 +27,7 @@
 
     <p style="color:#676767; line-height: 21px; margin:0; font-size:16px;">
         <br />
-        If you did not request a password reset, please ignore this email or reply to let us know. The password reset is only valid for next 15 minutes.
+        If you did not request a password reset, please ignore this email or reply to let us know.
     </p>
 
     <p style="color:#676767; line-height: 21px; margin:0; font-size:16px;">
